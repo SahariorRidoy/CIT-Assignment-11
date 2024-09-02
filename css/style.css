@@ -1,0 +1,114 @@
+.container{
+    height: 1600px;
+    width: 1320px;
+    background: rgb(223, 215, 215);
+    margin: 10px auto;
+    position: relative;
+
+}
+.logo{
+    
+    position: absolute;
+    left: 50px;
+    top: 20px;
+
+}
+.menu{
+    font-size: 30px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 550px;
+    padding-top: 40px;
+   
+    
+}
+.button{
+    background-color: rgb(223, 167, 13);
+    font-size: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+
+}
+.banner{
+    position:absolute;
+    left: 0px;
+    top: 130px;
+    
+}
+.banner1{
+    height: 700px;
+    width: 1320px;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 750px;
+    border-radius: 5px;
+
+}
+.card_one{
+    background: rgb(129, 129, 129);
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+   
+}
+.card_two{
+    background: rgb(136, 141, 141);
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}
+.card_three{
+    background: rgb(147, 151, 151);
+    height: 400px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+
+}
+
+.img{
+    height: 200px;
+    width: 300px;
+}
+.upper{
+    height: 200px;
+    width: 300px;
+    background: rgb(201, 207, 207);
+    border-radius: 10px;
+
+}
+.lower{
+    height: 200px;
+    width: 300px;
+    background: rgb(46, 44, 44);
+    color: aliceblue;
+    margin-top: -30px;
+    
+
+}
+.card_title{
+    margin-top: 30px;
+    font-size: larger;
+    margin-left: 10px;
+}
+.text{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list{
+    padding: 50px 100px;
+    background: teal;
+    display: flex;
+    justify-content: space-around;
+}
